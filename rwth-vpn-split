@@ -1,8 +1,10 @@
 #!/bin/sh
 
+TIM_ID="Your TIM ID (omit domain, e.g. @rwth-aachen.de)"
 P="Your VPN password"
+
 echo $P | sudo openconnect \
-  --user="Your TIM ID (omit domain, e.g. @rwth-aachen.de)" \
+  --user=${TIM_ID} \
   --passwd-on-stdin \
   --authgroup="RWTH-VPN (Split Tunnel)" \
   --pfs \
