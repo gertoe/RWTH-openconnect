@@ -1,0 +1,13 @@
+#!/bin/sh
+
+P="Your VPN password"
+echo $P | sudo openconnect \
+  --user="Your TIM ID (omit domain, e.g. @rwth-aachen.de)" \
+  --passwd-on-stdin \
+  --authgroup="RWTH-VPN (Split Tunnel)" \
+  --pfs \
+  --deflate \
+  --compression=all \
+  --script=/etc/openconnect/local-rwth-nameserver.sh \
+  $@ \
+  vpn.rwth-aachen.de
