@@ -3,7 +3,7 @@ Template scripts to connect to the RWTH Aachen Cisco Anyconnect VPN server on *N
 ---
 The latest change of the RWTH Aachen VPN infrastructure to a Cisco Anyconnect-based web-vpn service disables users of the old IPsec vpnc configuration to connect. Notwithstanding this, the RWTH provides detailed instructions how to connect to their service using GUI configuration and even provides the Cisco Anyconnect client.
 
-However, in contrast to the vpnc configuration (available anymore!), the documentation found at the [IT-Center documentation portal](https://doc.itc.rwth-aachen.de/display/VPN) lacks information for "unexperienced" users on how to connect using an advanced non-gui configuration as well as information on how to generically set up the VPN connection on other operating systems that are not documented there, e.g. *BSD derivates etc.
+However, in contrast to the vpnc configuration (not available anymore!), the documentation found at the [IT-Center documentation portal](https://doc.itc.rwth-aachen.de/display/VPN) lacks information for "inexperienced" users on how to connect using an advanced non-gui configuration as well as information on how to generically set up the VPN connection on other operating systems that are not documented there, e.g. *BSD derivates etc.
 
 These scripts assist users in setting up a connection to the RWTH Aachen Cisco Anyconnect VPN server from the terminal using [openconnect](https://www.infradead.org/openconnect/).
 
