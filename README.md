@@ -1,3 +1,5 @@
+## [UPDATE: Due to changes in the VPN configuration, this workaround does not work anymore. To my knowledge, currently, the official Cisco/Anyconnect client is the only functional client.]
+
 # RWTH-VPN
 Template scripts to connect to the RWTH Aachen Cisco Anyconnect VPN server on *NIX systems using openconnect
 ---
